@@ -1,15 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   background-color: #181818;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
 }
 
 header {
   position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   height: 56px;
   width: 100vw;
   background-color: #212121;
+  padding: 0 16px;
+}
+
+.start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.start i {
+  margin-left: 10px;
+}
+
+.start .logo {
+  height: 20px;
+  width: 140px;
+  color: #fff;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 0.75;
+}
+
+.center .search {
+  width: 60%;
+  height: 39px;
+  background: #000;
+  border: 1px solid #323232;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.center .search-icon {
+  height: 40px;
+  width: 64px;
+  background: #323232;
+  padding: 10px;
+  text-align: center;
+}
+
+.center .microphone {
+  height: 40px;
+  width: 40px;
+  background: #181818;
+  border-radius: 50%;
+  padding: 10px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.end {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.end i {
+  margin-left: 15px;
+  width: 2.4rem;
 }
