@@ -12,8 +12,11 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+/* header */
+
 header {
   position: fixed;
+  top: 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -82,4 +85,20 @@ header {
 .end i {
   margin-left: 15px;
   width: 2.4rem;
+}
+
+/* body */
+
+.columns {
+  margin: 100px 20px 20px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.columns .primary {
+  width: 70vw;
+}
+
+.columns .secondary {
+  width: 30vw;
 }
