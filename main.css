@@ -104,6 +104,39 @@ header {
   width: 402px;
 }
 
+.ad {
+  border-bottom: 1px solid #323232;
+}
+
 .ad .row1 img {
   width: 402px;
+}
+
+.ad .row2 {
+  padding: 16px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ad .row2 .card {
+  display: flex;
+  height: 48px;
+}
+
+.row2 img {
+  width: 48px;
+}
+
+.row2 .card .content {
+  width: 202px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-self: flex-start;
+  align-self: flex-start;
+}
+
+.row2 button {
+  width: 128px;
+  height: 36px;
 }
