@@ -93,12 +93,17 @@ header {
   margin: 100px 20px 20px 20px;
   display: flex;
   justify-content: center;
+  gap: 30px;
 }
 
 .columns .primary {
-  width: 70vw;
+  width: 760px;
 }
 
 .columns .secondary {
-  width: 30vw;
+  width: 402px;
+}
+
+.ad .row1 img {
+  width: 402px;
 }
