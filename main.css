@@ -133,10 +133,34 @@ header {
   justify-content: center;
   flex-direction: column;
   justify-self: flex-start;
-  align-self: flex-start;
+  align-self: flex-end;
+}
+
+.card .content .title {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.card .content p .ad {
+  font-size: 12px;
+  color: #000;
+  background-color: #fbbf2c;
+  padding: 3px 4px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.card .content p .link {
+  font-size: 12px;
+  color: #828282;
 }
 
 .row2 button {
   width: 128px;
   height: 36px;
+  align-self: flex-end;
+  background: #3da6ff;
+  font-size: 14px;
+  border: none;
+  border-radius: 2px;
 }
