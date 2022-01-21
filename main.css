@@ -214,3 +214,42 @@ header {
   font-size: 12px;
   color: #aaa;
 }
+
+/* Left Main Column */
+
+.video-title {
+  margin-top: 10px;
+}
+
+.video-title h3 {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.video-data {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px 8px;
+}
+
+.video-data h4 {
+  width: 60%;
+  color: #aaa;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.video-data .right {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  flex: 1 1 0;
+}
+.video-data .right span {
+  font-family: 'Roboto';
+}
+
+.data-card {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #444;
+}
