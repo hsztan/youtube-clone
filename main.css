@@ -42,7 +42,7 @@ header {
   color: #fff;
 }
 
-.center {
+header .center {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -252,4 +252,50 @@ header {
 .data-card {
   padding-bottom: 10px;
   border-bottom: 1px solid #444;
+}
+
+.video-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  padding-top: 10px;
+  border-bottom: 1px solid #444;
+  padding-bottom: 10px;
+}
+
+.video-info .left p {
+  text-align: center;
+  font-size: 28px;
+  padding: 8px;
+  width: 48px;
+  height: 48px;
+  background: #689f39;
+  border-radius: 50%;
+}
+
+.video-info .center {
+  margin-top: 5px;
+  line-height: 1.2rem;
+  font-size: 14px;
+}
+
+.video-info .center .light-text {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.video-info .center .more {
+  margin-top: 4px;
+}
+
+.video-info .right {
+  margin-top: 5px;
+}
+
+.video-info .right button {
+  width: 110px;
+  height: 36px;
+  background-color: #cc0000;
+  border: none;
+  color: #fff;
 }
